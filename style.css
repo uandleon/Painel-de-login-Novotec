@@ -1,0 +1,127 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    background-image: url(fundo.png);
+    font-family: 'Orbitron', sans-serif;
+}
+
+#ladoesquerdo {
+
+    background-color: #351C39;
+    border-radius: 42px 0px 0px 42px;
+}
+
+#ladodireito {
+ 
+    background-color: #B95A56;
+    border-radius: 0px 42px 42px 0px;
+}
+
+#esquerdo {
+    color: #B95A56;
+}
+
+#esquerdo2 {
+    color: #B95A56;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    padding: 50px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: #351C39;
+}
+
+#novotec {
+    width: 192px;
+    margin-top: 70.68px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+input {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid;
+    font-family: 'Orbitron', sans-serif;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn button{
+background-color: transparent;
+border: 2px solid #351C39;
+border-radius: 5px;
+width: 120px;
+height: 40px;
+font-family: 'Orbitron', sans-serif;
+font-size: 15px;
+color: #351C39;
+margin-top: 30px;
+
+
+}
+
+.btn {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#redes {
+    display: flex;
+    justify-content: center;
+
+}
+
+#redes img {
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+
+}
+
+a {
+    color: #351C39;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn button:nth-of-type(1) {
+    margin-right: 10px;
+ 
+}
+
+.btn button:nth-of-type(2) {
+    margin-left: 10px;
+ 
+}
+
+#redes img:nth-of-type(1) {
+    margin-right: 10px;
+}
+
+#redes img:nth-of-type(2) {
+    margin-left: 10px;
+}
